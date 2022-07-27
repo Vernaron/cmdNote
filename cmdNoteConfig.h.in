@@ -1,0 +1,3 @@
+// the configured options and settings for Tutorial
+#define cmdNote_VERSION_MAJOR @cmdNote_VERSION_MAJOR@
+#define cmdNote_VERSION_MINOR @cmdNote_VERSION_MINOR@

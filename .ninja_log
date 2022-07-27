@@ -1,0 +1,9 @@
+# ninja log v5
+10	425	6806506380848390	CMakeFiles/cmdNote.dir/Write.cpp.obj	27e6fe9499713d4
+11	118	6806502860406665	CMakeFiles/cmdNote.dir/Read.cpp.obj	2fa9d3ab25d40c7
+8	421	6806506380813373	CMakeFiles/cmdNote.dir/Source.cpp.obj	4174b7e9e114f21d
+425	656	6806506383287773	cmdNote.exe	160268c46e9ca981
+11	106	6806507956597734	CMakeFiles/cmdNote.dir/Read.cpp.obj	64b16aad7ae03d39
+10	531	6806507960597334	CMakeFiles/cmdNote.dir/Write.cpp.obj	f2fb3da4dc334e11
+8	534	6806507960597334	CMakeFiles/cmdNote.dir/Source.cpp.obj	8883cb0de052bf78
+535	855	6806507963822317	cmdNote.exe	160268c46e9ca981
