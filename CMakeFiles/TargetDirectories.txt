@@ -1,3 +1,0 @@
-C:/Users/Lyzander Johnson/Documents/GitHub/cmdNote/CMakeFiles/cmdNote.dir
-C:/Users/Lyzander Johnson/Documents/GitHub/cmdNote/CMakeFiles/edit_cache.dir
-C:/Users/Lyzander Johnson/Documents/GitHub/cmdNote/CMakeFiles/rebuild_cache.dir

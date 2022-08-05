@@ -34,7 +34,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/Lyzander$ Johnson/Documents/GitHub/cmdNote/
+cmake_ninja_workdir = C$:/Users/Lyzander$ Johnson/Documents/GitHub/cmdNote/lib/
 # =============================================================================
 # Object build statements for EXECUTABLE target cmdNote
 
@@ -44,24 +44,17 @@ cmake_ninja_workdir = C$:/Users/Lyzander$ Johnson/Documents/GitHub/cmdNote/
 
 build cmake_object_order_depends_target_cmdNote: phony || CMakeFiles/cmdNote.dir
 
-build CMakeFiles/cmdNote.dir/Source.cpp.obj: CXX_COMPILER__cmdNote_ C$:/Users/Lyzander$ Johnson/Documents/GitHub/cmdNote/Source.cpp || cmake_object_order_depends_target_cmdNote
+build CMakeFiles/cmdNote.dir/Source.cpp.obj: CXX_COMPILER__cmdNote_ C$:/Users/Lyzander$ Johnson/Documents/GitHub/cmdNote/lib/Source.cpp || cmake_object_order_depends_target_cmdNote
   DEP_FILE = CMakeFiles\cmdNote.dir\Source.cpp.obj.d
   FLAGS = -std=gnu++20
-  INCLUDES = -I"C:/Users/Lyzander Johnson/Documents/GitHub/cmdNote"
+  INCLUDES = -I"C:/Users/Lyzander Johnson/Documents/GitHub/cmdNote/lib"
   OBJECT_DIR = CMakeFiles\cmdNote.dir
   OBJECT_FILE_DIR = CMakeFiles\cmdNote.dir
 
-build CMakeFiles/cmdNote.dir/Write.cpp.obj: CXX_COMPILER__cmdNote_ C$:/Users/Lyzander$ Johnson/Documents/GitHub/cmdNote/Write.cpp || cmake_object_order_depends_target_cmdNote
-  DEP_FILE = CMakeFiles\cmdNote.dir\Write.cpp.obj.d
+build CMakeFiles/cmdNote.dir/noteFuncs.cpp.obj: CXX_COMPILER__cmdNote_ C$:/Users/Lyzander$ Johnson/Documents/GitHub/cmdNote/lib/noteFuncs.cpp || cmake_object_order_depends_target_cmdNote
+  DEP_FILE = CMakeFiles\cmdNote.dir\noteFuncs.cpp.obj.d
   FLAGS = -std=gnu++20
-  INCLUDES = -I"C:/Users/Lyzander Johnson/Documents/GitHub/cmdNote"
-  OBJECT_DIR = CMakeFiles\cmdNote.dir
-  OBJECT_FILE_DIR = CMakeFiles\cmdNote.dir
-
-build CMakeFiles/cmdNote.dir/Read.cpp.obj: CXX_COMPILER__cmdNote_ C$:/Users/Lyzander$ Johnson/Documents/GitHub/cmdNote/Read.cpp || cmake_object_order_depends_target_cmdNote
-  DEP_FILE = CMakeFiles\cmdNote.dir\Read.cpp.obj.d
-  FLAGS = -std=gnu++20
-  INCLUDES = -I"C:/Users/Lyzander Johnson/Documents/GitHub/cmdNote"
+  INCLUDES = -I"C:/Users/Lyzander Johnson/Documents/GitHub/cmdNote/lib"
   OBJECT_DIR = CMakeFiles\cmdNote.dir
   OBJECT_FILE_DIR = CMakeFiles\cmdNote.dir
 
@@ -71,14 +64,14 @@ build CMakeFiles/cmdNote.dir/Read.cpp.obj: CXX_COMPILER__cmdNote_ C$:/Users/Lyza
 
 
 #############################################
-# Link the executable cmdNote.exe
+# Link the executable C:\Users\Lyzander Johnson\Documents\GitHub\cmdNote\cmdNote.exe
 
-build cmdNote.exe: CXX_EXECUTABLE_LINKER__cmdNote_ CMakeFiles/cmdNote.dir/Source.cpp.obj CMakeFiles/cmdNote.dir/Write.cpp.obj CMakeFiles/cmdNote.dir/Read.cpp.obj
+build C$:/Users/Lyzander$ Johnson/Documents/GitHub/cmdNote/cmdNote.exe: CXX_EXECUTABLE_LINKER__cmdNote_ CMakeFiles/cmdNote.dir/Source.cpp.obj CMakeFiles/cmdNote.dir/noteFuncs.cpp.obj
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\cmdNote.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = cmdNote.exe
+  TARGET_FILE = "C:\Users\Lyzander Johnson\Documents\GitHub\cmdNote\cmdNote.exe"
   TARGET_IMPLIB = libcmdNote.dll.a
   TARGET_PDB = cmdNote.exe.dbg
 
@@ -87,7 +80,7 @@ build cmdNote.exe: CXX_EXECUTABLE_LINKER__cmdNote_ CMakeFiles/cmdNote.dir/Source
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Lyzander Johnson\Documents\GitHub\cmdNote" && C:\msys64\mingw64\bin\cmake-gui.exe -S"C:\Users\Lyzander Johnson\Documents\GitHub\cmdNote" -B"C:\Users\Lyzander Johnson\Documents\GitHub\cmdNote""
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Lyzander Johnson\Documents\GitHub\cmdNote\lib" && C:\msys64\mingw64\bin\cmake-gui.exe -S"C:\Users\Lyzander Johnson\Documents\GitHub\cmdNote\lib" -B"C:\Users\Lyzander Johnson\Documents\GitHub\cmdNote\lib""
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -99,7 +92,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Lyzander Johnson\Documents\GitHub\cmdNote" && C:\msys64\mingw64\bin\cmake.exe --regenerate-during-build -S"C:\Users\Lyzander Johnson\Documents\GitHub\cmdNote" -B"C:\Users\Lyzander Johnson\Documents\GitHub\cmdNote""
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Lyzander Johnson\Documents\GitHub\cmdNote\lib" && C:\msys64\mingw64\bin\cmake.exe --regenerate-during-build -S"C:\Users\Lyzander Johnson\Documents\GitHub\cmdNote\lib" -B"C:\Users\Lyzander Johnson\Documents\GitHub\cmdNote\lib""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -109,7 +102,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build cmdNote: phony cmdNote.exe
+build cmdNote: phony C$:/Users/Lyzander$ Johnson/Documents/GitHub/cmdNote/cmdNote.exe
+
+build cmdNote.exe: phony C$:/Users/Lyzander$ Johnson/Documents/GitHub/cmdNote/cmdNote.exe
 
 # =============================================================================
 # Folder targets.
@@ -117,9 +112,9 @@ build cmdNote: phony cmdNote.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Lyzander Johnson/Documents/GitHub/cmdNote
+# Folder: C:/Users/Lyzander Johnson/Documents/GitHub/cmdNote/lib
 
-build all: phony cmdNote.exe
+build all: phony C$:/Users/Lyzander$ Johnson/Documents/GitHub/cmdNote/cmdNote.exe
 
 # =============================================================================
 # Built-in targets
